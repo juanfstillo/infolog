@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    {{-- <link rel="icon" href="/images/infologicon.svg"> --}}
+    <link rel="icon" href="/images/favicon.ico">
 
     <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -19,7 +19,6 @@
   <body>
     <header>
       @include('header')
-
     </header>
 
     <main>
