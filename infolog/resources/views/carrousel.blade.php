@@ -21,9 +21,9 @@
   </div>
 
   <div class="carousel-item">
-    <img class="d-block w-100" src="/images/main.jpg" alt="PetrolTwo">
+    <img class="d-block w-100" src="/images/main2.jpg" alt="PetrolTwo">
     <div class="carousel-caption d-none d-md-block">
-      <h3 class="carousel-title"> CONSEGUIR IMAGEN </h3>
+      <h3 class="carousel-title"> INVESTIGACIÓN </h3>
     </div>
   </div>
 </div>

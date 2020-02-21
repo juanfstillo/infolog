@@ -26,6 +26,8 @@
     </main>
 
     <footer>
+      @include('footer')
+
     </footer>
 
     <!-- Optional JavaScript -->
