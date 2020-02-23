@@ -15,5 +15,8 @@
     <li class="nav-item">
       <a class="nav-link" href="#">Nuestra Política de Calidad</a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Noticias</a>
+    </li>
   </ul>
 </nav>
