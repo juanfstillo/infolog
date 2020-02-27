@@ -75,7 +75,7 @@ software como en hardware y descuidar la seguridad del medio donde estos se proc
         <h6 class="text-uppercase font-weight-bold">Links Relevantes</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <a href="https://www.ypf.com/Paginas/home.aspx">YPF ARGENTINA</a>
+          <a href="https://www.ypf.com/Paginas/home.aspx">YPF ARGENTINA S.A</a>
         </p>
 
       </div>

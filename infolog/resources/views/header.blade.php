@@ -1,22 +1,26 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <!-- Brand/logo -->
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="{{ url('inicio') }}">
     <img src="/images/infologicon.svg" alt="logo" style="width:40px;">
   </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <!-- Links -->
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#">La Empresa</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Nuestro Cliente</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Nuestra Política de Calidad</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Noticias</a>
-    </li>
-  </ul>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{{ url('inicio') }}">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url('noticias') }}">Noticias</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url('laempresa') }}">La Empresa</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url('nuestrocliente') }}">Nuestro Cliente</a>
+      </li>
+
+    </ul>
+  </div>
 </nav>

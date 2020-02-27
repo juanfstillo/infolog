@@ -15,9 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-route::get("inicio", function () {
-  return view("index");
-});
+Route::get("inicio", function () {return view("index");});
+Route::get('/noticias', function(){return view ('/noticias');});
+Route::get('/laempresa', function(){return view ('/laempresa');});
+Route::get('/nuestrocliente', function(){return view ('/nuestrocliente');});
+
 
 Auth::routes();
 
