@@ -6,12 +6,7 @@
 
       <!-- Grid row-->
       <div class="row py-4 d-flex align-items-center">
-
-        {{-- <!-- Grid column -->
-        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-          <h6 class="mb-0">Get connected with us on social networks!</h6>
-        </div>
-        <!-- Grid column --> --}}
+        <!-- Grid column -->
 
         <!-- Grid column -->
         <div class="col-md-6 col-lg-7 text-center text-md-right">
@@ -86,13 +81,11 @@ software como en hardware y descuidar la seguridad del medio donde estos se proc
 
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold">Contacto</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-           Coronel García 629, Avellaneda</p>
-        <p>
-          info@infologargentina.com</p>
-        <p>
-           54 11 3535-3993</p>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 80px;">
+        <br>        
+        <a href="https://goo.gl/maps/XgEEwXsoZrrEpzDt9">Coronel García 629, PBA</a>
+        <a href="mailto:info@infologargentina.com">info@infologargentina.com</a><br>
+        <a href="tel:54 11 3535-3993">54 11 3535-3993</a>
 
 
       </div>

@@ -84,7 +84,7 @@
                     INFOLOG
                 </div>
                 <div class="content">
-                  <img src="/images/infologicon.svg" alt="logo" style="width:100px;">
+                  <img src="/images/Infologclasicopantone.svg" alt="logo" style="width:100px;">
                 </div>
 
 

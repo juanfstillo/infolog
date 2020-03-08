@@ -14,7 +14,7 @@ empresas de servicios, desarrollando nuevas tareas y ofreciendo una respuesta in
 de máxima calidad en el producto, comprometiéndonos en los resultados de los proyectos.</p>
 
       </div>
-      <div class="col-lg-6 d-none d-lg-block"><img src="/images/infologicon.svg" alt="infologLaEmpresa" style="width:360px;"></div>
+      <div class="col-lg-6 d-none d-lg-block"><img src="/images/infologclasicopantone.svg" alt="infologLaEmpresa" style="width:300px;"></div>
     </div>
   </div>
 </div>
@@ -38,43 +38,6 @@ de máxima calidad en el producto, comprometiéndonos en los resultados de los p
   </div>
 </div>
 
-<div class="bg-light py-5">
-  <div class="container py-5">
-    <div class="row mb-4">
-      <div class="col-lg-5">
-        <h2 class="display-4 font-weight-light">Nuestro Equipo</h2>
-        <p class="font-italic text-muted">Profesionales con más de 30 años de experiencia en el rubro.</p>
-      </div>
-    </div>
-
-    <div class="row text-center">
-      <!-- Team item-->
-      <div class="col-xl-4 col-sm-6 mb-12">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Susana APELLIDO</h5><span class="small text-uppercase text-muted">DIRECTORA</span>
-        </div>
-      </div>
-      <!-- End-->
-
-      <!-- Team item-->
-      <div class="col-xl-4 col-sm-6 mb-12">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834130/avatar-3_hzlize.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Victor Rivas</h5><span class="small text-uppercase text-muted">DIRECTOR</span>
-        </div>
-      </div>
-      <!-- End-->
-
-      <!-- Team item-->
-      <div class="col-xl-4 col-sm-6 mb-12">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-1_s02nlg.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Luis Stillo</h5><span class="small text-uppercase text-muted">DIRECTOR</span>
-        </div>
-      </div>
-      <!-- End-->
-
-    </div>
-  </div>
-</div>
 {{-- Grid column0 --}}
     <div class="rowcolor" style="background-color: white">
      <div class="container" >
@@ -86,7 +49,7 @@ de máxima calidad en el producto, comprometiéndonos en los resultados de los p
      </div>
    </div>
  {{-- </div> --}}
-<div class="map" id= "map">
+<div class="map">
   <div style="width: 100%"><iframe width="100%" height="600" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.7937848210195!2d-58.386487084502114!3d-34.65991046798096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccca7c89b3c2d%3A0x39e4bb0660acb025!2sTte.%20Gral.%20Garc%C3%ADa%20629%2C%20Pi%C3%B1eyro%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1582774842550!5m2!1ses-419!2sar" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.mapsdirections.info/calcular-ruta.html">Mapa de Ruta</a></iframe></div>
 </div>
 

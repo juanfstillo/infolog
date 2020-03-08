@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get("inicio", function () {return view("index");});
-Route::get('/noticias', function(){return view ('/noticias');});
+Route::get('/noticias', 'newsController@allnews');
 Route::get('/laempresa', function(){return view ('/laempresa');});
 Route::get('/nuestrocliente', function(){return view ('/nuestrocliente');});
 

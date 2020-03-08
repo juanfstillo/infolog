@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
   <a class="navbar-brand" href="{{ url('inicio') }}">
-    <img src="/images/infologicon.svg" alt="logo" style="width:40px;">
+    <img src="/images/infologclasicopantoneletrablanca.svg" alt="logo" style="width:70px;">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,6 @@
       <li class="nav-item">
         <a class="nav-link" href="{{ url('nuestrocliente') }}">Nuestro Cliente</a>
       </li>
-
     </ul>
   </div>
 </nav>
