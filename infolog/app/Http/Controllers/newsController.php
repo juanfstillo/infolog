@@ -18,6 +18,11 @@ return view ("/noticias", $vac);
     $vac = compact("newforhome");
     return view ("/index", $vac);
   }
+  public function allnewstablero(){
+$newstablero = news::all();
+$vac = compact("newstablero");
+return view ("/tablero", $vac);
+  }//
 
 
 }

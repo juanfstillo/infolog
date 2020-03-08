@@ -19,7 +19,7 @@ Route::get("index", 'newsController@newsforhome');
 Route::get('/noticias', 'newsController@allnews');
 Route::get('/laempresa', function(){return view ('/laempresa');});
 Route::get('/nuestrocliente', function(){return view ('/nuestrocliente');});
-
+Route::get('/tablero', 'newsController@allnewstablero');
 
 Auth::routes();
 
