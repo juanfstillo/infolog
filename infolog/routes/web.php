@@ -20,6 +20,8 @@ Route::get('/noticias', 'newsController@allnews');
 Route::get('/laempresa', function(){return view ('/laempresa');});
 Route::get('/nuestrocliente', function(){return view ('/nuestrocliente');});
 Route::get('/tablero', 'newsController@allnewstablero');
+Route::get('/delete_new/{id_new}', 'newsController@deleteNew');
+Route::view('add_new', 'add_new');
 
 Auth::routes();
 

@@ -82,7 +82,7 @@ software como en hardware y descuidar la seguridad del medio donde estos se proc
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold">Contacto</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 80px;">
-        <br>        
+        <br>
         <a href="https://goo.gl/maps/XgEEwXsoZrrEpzDt9">Coronel García 629, PBA</a>
         <a href="mailto:info@infologargentina.com">info@infologargentina.com</a><br>
         <a href="tel:54 11 3535-3993">54 11 3535-3993</a>
@@ -99,7 +99,7 @@ software como en hardware y descuidar la seguridad del medio donde estos se proc
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> JCJ Organize</a>
+    <a href="{{ url('/laempresa') }}"> InfologDev</a>
   </div>
   <!-- Copyright -->
 

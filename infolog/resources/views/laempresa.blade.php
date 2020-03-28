@@ -4,17 +4,17 @@
 @endsection
 
 @section('main')
-<div class="bg-light">
+<div class="bg-secondary">
   <div class="container p-5">
     <div class="row h-100 align-items-center py-5">
       <div class="col-lg-6">
-        <h1 class="display-4 p-5">Nosotros</h1>
-        <p class="lead text-muted mb-0">Nuestro desafío consiste en adaptarnos a los constantes cambios de la industria y
+        <h1 class="display-3 p-5 text-light">Nosotros</h1>
+        <p class="text-light mb-0">Nuestro desafío consiste en adaptarnos a los constantes cambios de la industria y
 empresas de servicios, desarrollando nuevas tareas y ofreciendo una respuesta inmediata
 de máxima calidad en el producto, comprometiéndonos en los resultados de los proyectos.</p>
 
       </div>
-      <div class="col-lg-6 d-none d-lg-block"><img src="/images/infologclasicopantone.svg" alt="infologLaEmpresa" style="width:300px;"></div>
+      <div class="col-lg-6 d-none d-lg-block"><img src="/images/infologclasicopantoneletrablanca.svg" alt="infologLaEmpresa" style="width:300px;"></div>
     </div>
   </div>
 </div>
@@ -45,6 +45,7 @@ de máxima calidad en el producto, comprometiéndonos en los resultados de los p
          <ul class="list-unstyled mb-0" style="text-align-last: center;padding-bottom: 10px;padding-top: 10px;">
              <li><img src="images/home-solid.svg" style="width:100px" align="middle" alt="Home"></li>
              <li align="center"><a href="#map">Coronel García 629 <br>AVELLANEDA-ARGENTINA</li>
+               <li><a href="tel:54 11 3535-3993">54 11 3535-3993</a></li>
        </div>
      </div>
    </div>
