@@ -4,38 +4,61 @@
 @endsection
 
 @section('main')
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <h1 class="page-header">Agregar usuario</h1>
-            <form class="form-horizontal">
-              <div class="form-group">
-                <label for="inputNombre" class="col-sm-2 control-label text-uppercase">Título</label>
-                <div class="col-sm-10">
-                  <input type="nombre" class="form-control" id="inputNombre" placeholder="Título">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="inputContraseña" class="col-sm-2 control-label">Cuerpo de la Noticia</label>
-                <div class="col-sm-10">
-                  <input type="contraseña" class="form-control" id="inputContraseña" placeholder="Contraseña del usuario">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="inputFoto" class="col-sm-2 control-label">Foto</label>
-                <div class="col-sm-10">
-                  <input type="apellido" class="form-control" id="inputFoto" placeholder="Foto del usuario">
-                </div>
-              </div>
-              </div>
-              <div class="d-flex justify-content-center p-4">
-                <a href="<?= url("/add_new")?>">
-            <button type="button" class="btn btn-primary btn-lg justify-content-center">Publicar</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
+<div class="container">
+<div class="row float-center">
+<div class="col-11 float-center">
+
+
+<h1 class="col-12 text-center mx-auto p-2">Nueva Noticia</h1>
+
+<form  class="form-body text-center" action="<?=url("/add_new")?>" method="POST" enctype="multipart/form-data">
+
+@csrf
+
+{{-- <div class="row justify-content-center mx-auto p-4"> --}}
+<div class="form-group">
+
+
+  <label for="title" class="form-label-prod" style="color:#000">Título</label>
+
+  <input required name="title" type="text" class="form-control" placeholder="Título">
+</div>
+
+
+<div class="form-group">
+  <label for="abstract" class="form-label-prod" style="color:#000">Resumen</label>
+  <input required name="abstract" type="text" class="form-control"  placeholder="Resumen de la noticia">
+</div>
+
+
+<div class="form-group">
+  <label for="file" class="form-label-prod" style="color:#000">Imagen</label>
+  <input id="file" type="file" class="form-control col-md-5 @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" required autocomplete="file">
+  @error('file')
+      <span class="invalid-feedback" role="alert">
+          <strong>{{ $message }}</strong>
+      </span>
+  @enderror
+</div>
+
+
+
+<div class="form-group">
+  <label for="description">Cuerpo de la noticia</label>
+  <textarea required name="description" id="description" class="form-control" id="exampleTextarea" rows="3"></textarea>
+</div>
+
+  <div class="col-md-12 justify-content-center mx-auto p-3">
+    <a href="<?=url("/tablero")?>">
+    <button type="button" class="btn btn-secondary btn-lg justify-content-center">Cancelar</button></a>
+    <button type="submit" class="btn btn-primary btn-lg justify-content-center">Crear Noticia</button>
+  </div>
+
+</form>
+</div>
+</div>
+</div>
+
 
 
 @endsection

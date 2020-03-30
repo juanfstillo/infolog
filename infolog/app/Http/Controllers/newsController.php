@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\news;
+use Illuminate\Support\Str;
 
 
 class newsController extends Controller
@@ -40,8 +41,10 @@ return view ("/tablero", $vac);
   }
   $newNew = new news;
   $newNew->imageUrl=$imageNew;
-  $newNew->name= $req["name"];
-  $newNew->slug= Str::slug($newNew->name);
+  $newNew->title= $req["title"];
+  $newNew->abstract= $req["abstract"];
+  $newNew->text= $req["description"];
+  $newNew->slug= Str::slug($newNew->title);
   $newNew->save();
 return redirect ("/tablero");
 }

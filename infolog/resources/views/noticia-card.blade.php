@@ -1,8 +1,14 @@
-<div class="col-12 col-md-6 col-lg-6">
-  <a href="#" class="card">
-    <img class="card-img-top" src="" alt="Card image cap">
+@extends('layout')
+@section('title')
+  -INFOLOG-
+@endsection
+
+@section('main')
+  <div class="card m-5" >
     <div class="card-body">
-      <h5 class="card-title"></h5>
-    </div>
-  </a>
-</div>
+      <h1 class="display-4 text-center"></h1>
+
+      <p class="text-justify"></p>
+   </div>
+  </div>
+@endsection

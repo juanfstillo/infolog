@@ -8,7 +8,7 @@
   <h4 align="center" class='display-4 mx-auto'>¿Nueva Noticia?</h4>
     <div class="d-flex justify-content-center p-4">
         <a href="<?= url("/add_new")?>">
-        <button type="button" class="btn btn-primary btn-lg justify-content-center">Crear Noticia</button>
+        <button type="button" class="btn btn-primary btn-lg justify-content-center">Crear Noticia</button></a>
     </div>
 
   @foreach ($newstablero as $noticia)

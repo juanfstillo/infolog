@@ -6,7 +6,7 @@
 @section('main')
 <div class="bg-secondary">
   <div class="container p-5">
-    <div class="row h-100 align-items-center py-5">
+    <div class="row h-100 align-items-center py-5 pt-2">
       <div class="col-lg-6">
         <h1 class="display-3 p-5 text-light">Nosotros</h1>
         <p class="text-light mb-0">Nuestro desafío consiste en adaptarnos a los constantes cambios de la industria y
@@ -14,7 +14,7 @@ empresas de servicios, desarrollando nuevas tareas y ofreciendo una respuesta in
 de máxima calidad en el producto, comprometiéndonos en los resultados de los proyectos.</p>
 
       </div>
-      <div class="col-lg-6 d-none d-lg-block"><img src="/images/infologclasicopantoneletrablanca.svg" alt="infologLaEmpresa" style="width:300px;"></div>
+      <div class="col-lg-6 d-none d-lg-block p-3"><img src="/images/infologclasicopantoneletrablanca.svg" alt="infologLaEmpresa" style="width:300px;"></div>
     </div>
   </div>
 </div>
@@ -24,7 +24,7 @@ de máxima calidad en el producto, comprometiéndonos en los resultados de los p
     <div class="row align-items-center mb-5">
       <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
         <h2 class="font-weight-light">Almacenamiento y distribución de documentos</h2>
-        <p class="font-italic text-muted mb-4">Contamos con personal capacitado para resolver rapidamente lo demandado por nuestro cliente.</p><a href="#" class="btn btn-primary btn-lg active rounded-pill">Conocé más</a>
+        <p class="font-italic text-muted mb-4">Contamos con personal capacitado para resolver rapidamente lo demandado por nuestro cliente.</p><a href="{{url('almacenamiento')}}" class="btn btn-primary btn-lg active rounded-pill">Conocé más</a>
       </div>
       <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img src="/images/schedule.jpg" alt="scheduleLaEmpresa" class="img-fluid mb-4 mb-lg-0"></div>
     </div>
@@ -32,7 +32,7 @@ de máxima calidad en el producto, comprometiéndonos en los resultados de los p
       <div class="col-lg-5 px-5 mx-auto"><img src="/images/neuralog1.jpg" alt="neuralogLaEmpresa" class="img-fluid mb-4 mb-lg-0"></div>
       <div class="col-lg-6"><i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
         <h2 class="font-weight-light">Digitalización</h2>
-        <p class="font-italic text-muted mb-4">Nos ocupamos de optimizar registros petrolíferos.</p><a href="#" class="btn btn-primary btn-lg active rounded-pill">Conocé más</a>
+        <p class="font-italic text-muted mb-4">Nos ocupamos de optimizar registros petrolíferos.</p><a href="{{url('digitalizaciones')}}" class="btn btn-primary btn-lg active rounded-pill">Conocé más</a>
       </div>
     </div>
   </div>

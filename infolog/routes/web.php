@@ -19,9 +19,14 @@ Route::get("index", 'newsController@newsforhome');
 Route::get('/noticias', 'newsController@allnews');
 Route::get('/laempresa', function(){return view ('/laempresa');});
 Route::get('/nuestrocliente', function(){return view ('/nuestrocliente');});
+Route::get('/almacenamiento', function(){return view ('/almacenamiento');});
+Route::get('/digitalizaciones', function(){return view ('/digitalizaciones');});
 Route::get('/tablero', 'newsController@allnewstablero');
 Route::get('/delete_new/{id_new}', 'newsController@deleteNew');
 Route::view('add_new', 'add_new');
+Route::post('add_new', 'newsController@AddNew');
+Route::view('edit_new', 'edit_new');
+Route::post('edit_new', 'newsController@EditNew');
 
 Auth::routes();
 
