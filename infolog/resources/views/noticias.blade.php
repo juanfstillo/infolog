@@ -15,7 +15,7 @@
               {{$noticia->abstract}}
             </p>
             <br>
-            <a href="#" class="mt-auto btn btn-primary  ">Conocé más</a>
+            <a href="{{ route('tumama', ['newSlug' => $new->slug]) }}" class="mt-auto btn btn-primary  ">Conocé más</a>
           </div>
         </div>
         <!-- Image place -->

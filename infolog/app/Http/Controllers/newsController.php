@@ -9,6 +9,14 @@ use Illuminate\Support\Str;
 
 class newsController extends Controller
 {
+
+  public function index(Request $req, $slug) {
+        $new = news::where('slug', $slug)->first();
+        return view('noticiaunica', [
+            'new' => $new
+        ]);
+    }
+
   public function allnews(){
 $new = news::all();
 $vac = compact("new");
@@ -24,12 +32,12 @@ $newstablero = news::all();
 $vac = compact("newstablero");
 return view ("/tablero", $vac);
   }//
-  public function index(Request $req, $slug) {
-       $new = news::where('slug', $slug)->first();
-       return view('new', [
-           'new' => $new
-       ]);
-   }
+  // public function index(Request $req, $slug) {
+  //      $new = news::where('slug', $slug)->first();
+  //      return view('new', [
+  //          'new' => $new
+  //      ]);
+  //  }
 
    public function AddNew(Request $req)  {
   if(!empty($req["file"])){
@@ -49,7 +57,27 @@ return view ("/tablero", $vac);
 return redirect ("/tablero");
 }
 
+public function showEditNew($id_new){
+    $new = news::find($id_new);
+    $vac = compact("new");
+    return view ("/edit_new", $vac);
+  }
 
+  public function editNew($id_new, Request $req)  {
+    $new = news::find($id_new);
+    if(!empty($req["file"])){
+      $path = $req->file("file")->store("public");
+      $imageNew = basename($path);
+      $imageNew = "storage/" . $imageNew;
+      $new->imageUrl= $imageNew;
+    }
+    $new->title= $req["title"];
+    $new->abstract= $req["abstract"];
+    $new->text= $req["text"];
+    $new->slug= Str::slug($req["title"]);
+    $new->save();
+  return redirect ("/tablero");
+  }
 
 
    public function deleteNew($id_new)  {

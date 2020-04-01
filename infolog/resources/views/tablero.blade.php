@@ -46,7 +46,7 @@
                 <td class="table-item"></td>
 
                 <td class="table-item">
-                  <a href=""  class=" px-1 text-primary"><button class="btn btn-outline-secondary">Editar</button></a>
+                  <a href="<?= url("/edit_new/$noticia->id")?>"  class=" px-1 text-primary"><button class="btn btn-outline-secondary">Editar</button></a>
                   <a href="<?= url("/delete_new/$noticia->id")?>"  class=" px-1 text-danger"><button  class="btn btn-outline-danger">Eliminar</button></a>
                 </td>
               </tr>
