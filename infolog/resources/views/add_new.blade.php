@@ -11,7 +11,7 @@
 
 <h1 class="col-12 text-center mx-auto p-2">Nueva Noticia</h1>
 
-<form  class="form-body text-center" action="<?=url("/add_new")?>" method="POST" enctype="multipart/form-data">
+<form  class="form-body text-center" action="<?=url("/add_new")?>" method="POST" enctype="multipart/form-data" id='addnew'>
 
 @csrf
 
@@ -60,5 +60,10 @@
 </div>
 
 
+
+@endsection
+@section('scripts')
+  <script type="text/javascript" src="{{ URL::asset('js/form.js') }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
 @endsection

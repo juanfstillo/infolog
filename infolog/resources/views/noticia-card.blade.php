@@ -5,15 +5,16 @@
 	  <div class="row">
   		<div class="col-md-6">
 				<img class="card-img-top" style="width:250px" src="{{$new->imageUrl}}" alt="{{ $new->title }}">
-  			<h4 class="card-title">{{ $new->title }}</h5>
+				<p>{{ $new->abstract }}</p>
   		</div>
 			<div class="col-md-6 ">
-				<p>{{ $new->abstract }}</p>
+				<h4 class="card-title p-2">{{ $new->title }}</h5>
+
 			</div>
 
 			</button>
-  		<div class="col-md-6 ml-auto">
-				<a href="{{ route('noticiaunica', ['newSlug' => $new->slug]) }}" class="btn btn-outline-dark btn-sm">Leer más</a>
+  		<div class="col-md-6 mx-auto">
+				<a href="{{ route('noticiaunica', ['newSlug' => $new->slug]) }}" class="btn btn-outline-dark btn-sm p-2">Leer más</a>
 
 		</div>
 	  </div>

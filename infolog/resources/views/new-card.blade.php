@@ -1,6 +1,6 @@
 <div class="col-12 col-md-6 col-lg-6">
          <div class="card mb-4 text-white bg-dark">
-            <img class="card-img-top" src="{{ $new->imageUrl }}" alt="Card image cap">
+            <img class="card-img-top" size:'200px' src="{{ $new->imageUrl }}" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">{{ $new->title }}</h5>
                {{-- <p class="card-text">{{ $new->abstract }}</p> --}}
