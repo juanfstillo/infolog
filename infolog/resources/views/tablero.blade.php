@@ -39,8 +39,8 @@
 
               <tr>
                 <td class="table-item">{{$noticia->title}}</td>
-                {{-- <td>{{$eachproduct->slug}}</td> --}}
-                <td class="table-item"><img src="" alt="" style="width:150px"></td>
+                <td class="table-item">{{$noticia->created_at}}</td>
+                <td class="table-item"><img src="{{$noticia->imageUrl}}" alt="" style="width:150px"></td>
                 {{-- <td>{{$eachproduct->description}}</td> --}}
                 <td class="table-item"></td>
                 <td class="table-item"></td>

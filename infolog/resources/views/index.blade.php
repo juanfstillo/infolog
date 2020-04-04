@@ -8,10 +8,10 @@
 @include('carrousel')
 <!-- Card Start -->
 
-<div class="card">
+<div class="container py-4">
   <div class="row ">
       @foreach ($newforhome as $new)
-        @include('noticia-card', ['new' => $new])
+        @include('new-card', ['new' => $new])
     @endforeach
 
     </div>

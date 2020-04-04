@@ -17,16 +17,34 @@
 
 {{-- <div class="row justify-content-center mx-auto p-4"> --}}
 <div class="form-group">
-  <label for="title" class="form-label-prod" style="color:#000">Titulo</label>
-  <input required name="title" type="text" class="form-control" placeholder="" value={{$new->title}}>
+  <label for="title" class="form-label" style="color:#000">Titulo</label>
+  <input required name="title" type="text" class="form-control"  value={{$new->title}}>
 </div>
 
 
 <div class="row justify-content-left col-6">
-      <label for="abstract" class="form-label-prod">Resumen</label>
+      <label for="abstract" class="form-label">Resumen</label>
 </div>
+
+<div class="row cat-id justify-content-left col-6">
+      <label for="img" class="">Imagen actual</label>
+    </div>
+    <div class="row justify-content-left col-6">
+      <img src="<?=url("{$new->imageUrl}")?>" class="imgProd" alt="productImage">
+    </div>
+
+<div class="form-group">
+  <label for="file" class="form-label-prod" style="color:#000">Imagen</label>
+  <input id="file" type="file" class="form-control col-md-5 @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" required autocomplete="file">
+  @error('file')
+      <span class="invalid-feedback" role="alert">
+          <strong>{{ $message }}</strong>
+      </span>
+  @enderror
+</div>
+
     <div>
-      <textarea name="abstract" type="text" value= "{{$new->abstract}}" class="form-control justify-content-left" style="width: 100%" placeholder="{{$new->abstract}}" rows="6"></textarea>
+      <textarea name="abstract" type="text" value= "{{$new->abstract}}" placeholder="{{$new->abstract}}"class="form-control justify-content-left" style="width: 100%" rows="6">{{$new->abstract}}</textarea>
     </div>
 
 
@@ -42,16 +60,12 @@
 </div> --}}
 
 <div class="row justify-content-left col-6">
-      <label for="text" class="form-label-prod">Cuerpo de la noticia</label>
+      <label for="text" class="form-label">Cuerpo de la noticia</label>
 </div>
     <div>
-      <textarea name="text" type="text" value= "{{$new->text}}" class="form-control justify-content-left" style="width: 100%" placeholder="{{$new->text}}" rows="6"></textarea>
+      <textarea name="text" type="text" value= "{{$new->text}}" class="form-control justify-content-left" style="width: 100%" rows="6">{{$new->text}}</textarea>
     </div>
 
-{{-- <div class="form-group">
-  <label for="description">Cuerpo de la noticia</label>
-  <textarea required name="description" value= "{{$new->description}}" id="description" class="form-control" id="exampleTextarea" rows="3"></textarea>
-</div> --}}
 
   <div class="col-md-12 justify-content-center mx-auto p-3">
     <a href="<?=url("/tablero")?>">
