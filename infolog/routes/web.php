@@ -15,12 +15,19 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get("index", 'newsController@newsforhome');
+Route::get("/index", 'newsController@newsforhome');
+Route::get('register','RegisterController@RegisterController');
+Route::get('/login','LoginController@LoginController');
 Route::get('/noticias', 'newsController@allnews');
 Route::get('/laempresa', function(){return view ('/laempresa');});
 Route::get('/nuestrocliente', function(){return view ('/nuestrocliente');});
 Route::get('/almacenamiento', function(){return view ('/almacenamiento');});
 Route::get('/digitalizaciones', function(){return view ('/digitalizaciones');});
+Route::get('/gestioncalidad', function(){return view ('/gestioncalidad');});
+Route::get('/coronacutting', function(){return view ('/coronacutting');});
+Route::get('/soportesmagneticos', function(){return view ('/soportesmagneticos');});
+
+
 Route::get('/tablero', 'newsController@allnewstablero');
 
 Route::view('add_new', 'add_new');

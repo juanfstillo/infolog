@@ -54,7 +54,7 @@
         <h6 class="text-uppercase font-weight-bold">Nuestra Visión</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>No pueden pensarse niveles de seguridad de información, tanto en
-software como en hardware y descuidar la seguridad del medio donde estos se procesan.</p>
+software como en hardware, y descuidar la seguridad del medio donde estos se procesan.</p>
 
       </div>
       <!-- Grid column -->
@@ -83,7 +83,7 @@ software como en hardware y descuidar la seguridad del medio donde estos se proc
         <h6 class="text-uppercase font-weight-bold">Contacto</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 80px;">
         <br>
-        <a href="https://goo.gl/maps/XgEEwXsoZrrEpzDt9">Coronel García 629, PBA</a>
+        <a href="https://goo.gl/maps/RK9Gf2JY4i1VJ76i6">Perdriel 1240, CABA</a>
         <a href="mailto:info@infologargentina.com">info@infologargentina.com</a><br>
         <a href="tel:54 11 3535-3993">54 11 3535-3993</a>
 

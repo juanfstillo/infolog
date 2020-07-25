@@ -16,3 +16,8 @@
         text-decoration: none;
     opacity: 0.8;
 }
+
+#service{
+  padding: 0;
+  margin-bottom: 0;
+}

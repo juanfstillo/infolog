@@ -5,14 +5,13 @@ DIGITALIZACIÓN | INFOLOG ARGENTINA
 @section('main')
 <div class="container-fluid bg-grey ">
     <div class="row mx-auto p-5">
-      <div class="col-sm-4">
-        <img src="/images/neuralog.jpg" alt="mision-objetivos" style='max-width:400px '>
-      </div>
+      {{-- <div class="col-sm-4">
+        <img src="/images/digitalizacion1.png" alt="digitalizacion" style='max-width:400px '>
+      </div> --}}
       <div class="col-sm-8">
         <h2 class= "text-uppercase">DIGITALIZACIÓN</h2><br>
-        <h4><strong>Metro x Metro:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-        <p><strong>Control de Calidad:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <h4><strong>Servicio:</strong> Nos encontramos capacitados para cumplir diversas tareas referidas a la digitalizacion de documentación. Contamos con softwares de última generación para realizar la tarea correctamente.</h4><br>
+        <p><strong>Nuestra Política:</strong> Luego de realizar el trabajo, nuestro equipo realiza un exhaustivo control de calidad con el fin de entregar un producto operativo y de utilidad para nuestro cliente.</p>
       </div>
     </div>
   </div>

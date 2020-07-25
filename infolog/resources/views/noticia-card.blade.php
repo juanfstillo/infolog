@@ -5,7 +5,7 @@
 	  <div class="row">
   		<div class="col-md-6">
 				<img class="card-img-top" style="width:250px" src="{{$new->imageUrl}}" alt="{{ $new->title }}">
-				<p>{{ $new->abstract }}</p>
+				<p class='text-secondary'>{{ $new->abstract }}</p>
   		</div>
 			<div class="col-md-6 ">
 				<h4 class="card-title p-2">{{ $new->title }}</h5>
