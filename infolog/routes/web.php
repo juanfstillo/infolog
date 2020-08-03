@@ -11,12 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get("/index", 'newsController@newsforhome');
-// Route::get('register','RegisterController@RegisterController');
+Route::get('register','RegisterController@RegisterController');
 Route::get('/login','LoginController@LoginController');
 Route::get('/noticias', 'newsController@allnews');
 Route::get('/laempresa', function(){return view ('/laempresa');});
@@ -38,7 +38,7 @@ Route::post('edit_new/{id_new}','newsController@editNew');
 
 Route::get('/delete_new/{id_new}', 'newsController@deleteNew');
 
-Route::get('/{newSlug}', 'newsController@index')->name('noticiaunica');
+
 
 
 
@@ -46,3 +46,4 @@ Route::get('/{newSlug}', 'newsController@index')->name('noticiaunica');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/{newSlug}', 'newsController@index')->name('noticiaunica');
