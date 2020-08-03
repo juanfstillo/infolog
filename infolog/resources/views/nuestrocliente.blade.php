@@ -81,7 +81,7 @@ body {
         <div class="text-center">
           <img src="/images/logo-ypf.jpg" class="rounded" alt="ypf-logo">
         </div>
-         <p class="text-dark font-italic mb-1">Los Objetivos de Infolog S.R.L. están indisolublemente relacionados con su Política de la Calidad, la que está orientada a satisfacer permanentemente las necesidades, expectativas y requisitos actuales y futuros de YPF S.A., su Cliente, tanto como a sus Usuarios y demás partes interesadas,  respecto a proveer un servicio de Gestión Integral y custodia de información física, electrónica y elementos físicos de terceros.</p>
+         <p class="text-dark font-italic mb-1">Los Objetivos de Infolog S.R.L. están íntimamente relacionados con su política de calidad. Ésta se orienta a satisfacer permanentemente las necesidades y expectativas de YPF, su cliente.</p>
 
       </div>
 

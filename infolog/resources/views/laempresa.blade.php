@@ -35,11 +35,6 @@ de máxima calidad en el producto.</p>
         <p class="font-italic text-muted mb-4">Nos ocupamos de optimizar registros petrolíferos.</p><a href="{{url('digitalizaciones')}}" class="btn btn-primary btn-lg active rounded-pill">Conocé más</a>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="bg-white py-2">
-  <div class="container py-5">
     <div class="row align-items-center mb-5">
       <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
         <h2 class="font-weight-light">Guarda de coronas y cutting</h2>
@@ -54,10 +49,6 @@ de máxima calidad en el producto.</p>
         <p class="font-italic text-muted mb-4">Perfecta preservación de los recursos.</p><a href="{{url('soportesmagneticos')}}" class="btn btn-primary btn-lg active rounded-pill">Conocé más</a>
       </div>
     </div>
-  </div>
-</div>
-<div class="bg-white py-5">
-  <div class="container py-5">
     <div class="row align-items-center mb-5">
       <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
         <h2 class="font-weight-light">Gestión de calidad</h2>
@@ -67,6 +58,8 @@ de máxima calidad en el producto.</p>
     </div>
   </div>
 </div>
+
+
 
 {{-- Grid column0 --}}
     <div class="rowcolor" style="background-color: white">

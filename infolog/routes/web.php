@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get("/index", 'newsController@newsforhome');
-Route::get('register','RegisterController@RegisterController');
+// Route::get('register','RegisterController@RegisterController');
 Route::get('/login','LoginController@LoginController');
 Route::get('/noticias', 'newsController@allnews');
 Route::get('/laempresa', function(){return view ('/laempresa');});
