@@ -20,6 +20,14 @@
       <li class="nav-item active p-3">
         <a class="nav-link text-uppercase" href="{{ url('nuestrocliente') }}">Nuestro Cliente <span class="sr-only">(current)</span></a>
       </li>
+
+      @if (Auth::guest())
+
+      @elseif (Auth::user()->isadmin == 1) 
+        <li class="nav-item active p-3">
+          <a class="nav-link text-uppercase" href="{{ url('tablero') }}">Tablero <span class="sr-only">(current)</span></a>
+        </li>
+      @endif
       </ul>
   </div>
 </nav>

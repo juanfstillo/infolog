@@ -39,15 +39,17 @@
 
               <tr>
                 <td class="table-item">{{$noticia->title}}</td>
-                <td class="table-item">{{$noticia->created_at}}</td>
+                <td class="table-item">{{$noticia->created_at->format('j F, Y')}}</td>
+
+
                 <td class="table-item"><img src="{{$noticia->imageUrl}}" alt="" style="width:150px"></td>
                 {{-- <td>{{$eachproduct->description}}</td> --}}
                 <td class="table-item"></td>
                 <td class="table-item"></td>
 
                 <td class="table-item">
-                  <a href="<?= url("/edit_new/$noticia->id")?>"  class=" px-1 text-primary"><button class="btn btn-outline-secondary">Editar</button></a>
-                  <a href="<?= url("/delete_new/$noticia->id")?>"  class=" px-1 text-danger"><button  class="btn btn-outline-danger">Eliminar</button></a>
+                  <a href="<?= url("/edit_new/$noticia->id")?>"  class=" px-2 text-primary"><button class="btn btn-outline-secondary">Editar</button></a>
+                  <a href="<?= url("/delete_new/$noticia->id")?>"  class=" px-2 text-danger"><button  class="btn btn-outline-danger">Eliminar</button></a>
                 </td>
               </tr>
             </tbody>
