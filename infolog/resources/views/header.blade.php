@@ -23,7 +23,7 @@
 
       @if (Auth::guest())
 
-      @elseif (Auth::user()->isadmin == 1) 
+      @elseif (Auth::user()->is_admin == 1)
         <li class="nav-item active p-3">
           <a class="nav-link text-uppercase" href="{{ url('tablero') }}">Tablero <span class="sr-only">(current)</span></a>
         </li>

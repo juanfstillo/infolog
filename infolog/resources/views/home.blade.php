@@ -15,8 +15,8 @@
                     @endif
 
 
-Accedé al tablero
-<a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a> 
+                    Accedé al tablero
+<a class="nav-link" href="{{ url('tablero') }}">{{ __('Tablero') }}</a>
                 </div>
             </div>
         </div>
