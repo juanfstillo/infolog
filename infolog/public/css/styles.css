@@ -21,3 +21,22 @@
   padding: 0;
   margin-bottom: 0;
 }
+
+/*--------------- TABLES ---------------*/
+table th {
+	font-size: 1.4em;
+	color: black;
+}
+
+table th .items{
+	font-family: 'Staatliches', sans-serif;
+	font-size: 1.4em;
+	color: #000;
+}
+
+table td {
+	font-size: 1.2em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: black;
+}

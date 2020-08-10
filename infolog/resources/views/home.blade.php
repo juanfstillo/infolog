@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header">Logueado exitosamente</div>
 
-                <div class="card-body">
+                {{-- <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
@@ -17,7 +17,7 @@
 
                     Accedé al tablero
 <a class="nav-link" href="{{ url('tablero') }}">{{ __('Tablero') }}</a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

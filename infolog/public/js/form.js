@@ -7,5 +7,5 @@ form.onsubmit = function (ev) {
     'Vamos a crear mas!',
     'success'
   )
-  console.log('Se ha creado una categoría');
+  console.log('Se ha creado una noticia');
 }

@@ -21,13 +21,37 @@
         <a class="nav-link text-uppercase" href="{{ url('nuestrocliente') }}">Nuestro Cliente <span class="sr-only">(current)</span></a>
       </li>
 
-      @if (Auth::guest())
+    <li class="nav-item dropdown">
+    @guest
+        {{-- <li class="nav-item">
+            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+        </li> --}}
+        @if (Route::has('register'))
+            {{-- <li class="nav-item">
+                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+            </li> --}}
+        @endif
+    @else
+      <div class="dropdown">
+   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ADMINISTRADOR  </button>
+   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+     <a class="dropdown-item" href="{{ url('tablero') }}">Tablero <span class="sr-only">(current)</span></a>
+     {{-- <a class="dropdown-item" href="#">Another action</a> --}}
+     <a class="dropdown-item" href="{{ route('logout') }}"
+        onclick="event.preventDefault();
+                      document.getElementById('logout-form').submit();">
+         {{ __('Salir') }}
+     </a>
+     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+         @csrf
+     </form>
+   </div>
+ </div>
+    </li>
 
-      @elseif (Auth::user()->is_admin == 1)
-        <li class="nav-item active p-3">
-          <a class="nav-link text-uppercase" href="{{ url('tablero') }}">Tablero <span class="sr-only">(current)</span></a>
-        </li>
-      @endif
-      </ul>
-  </div>
+    @endguest
+  </ul>
+</div>
+
 </nav>
