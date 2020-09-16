@@ -23,7 +23,9 @@ $vac = compact("new");
 return view ("/noticias", $vac);
   }//
   public function newsforhome(){
-    $newforhome = news::take(2)->get();
+    $newforhome = news::take(2)
+    ->orderBy('id', 'desc')
+    ->get();
     $vac = compact("newforhome");
     return view ("/index", $vac);
   }

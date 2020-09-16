@@ -5,7 +5,7 @@
     <div class="carousel-item active">
       <img class="d-block w-100" src="/images/finalMain.jpg" alt="Petrol">
       <div class="carousel-caption d-none d-md-block">
-        <h3 class="carousel-title"> DESARROLLO </h3>
+        {{-- <h3 class="carousel-title"> DESARROLLO </h3> --}}
       </div>
     </div>
 

@@ -35,7 +35,7 @@
 
 <div class="form-group">
   <label for="file" class="form-label-prod" style="color:#000">Imagen</label>
-  <input id="file" type="file" class="form-control col-md-5 @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" required autocomplete="file">
+  <input id="file" type="file" class="form-control col-md-5 @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}">
   @error('file')
       <span class="invalid-feedback" role="alert">
           <strong>{{ $message }}</strong>
